@@ -1,0 +1,83 @@
+.intro {
+  height: 856px;
+  width: 100%;
+  background-image: url('../../images/intro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.intro__socialList {
+  width: 172px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 47px;
+  padding-right: 140px;
+}
+
+.intro__infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: absolute;
+  left: 142px;
+  top: 445px;
+}
+
+.intro__adress {
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 25px;
+}
+
+.intro__titleContainer {
+  width: 704px;
+  height: 148px;
+  background-color: #FFC800;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.intro__title {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  padding: 32px 152px;
+  margin: 0;
+}
+
+.intro__locationInfoContainer {
+  width: 706px;
+  height: 72px;
+  background-color: #3B3B3B;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.intro__locationInfo {
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  padding: 8px 27px;
+  margin: 0;
+  max-width: 651px;
+}

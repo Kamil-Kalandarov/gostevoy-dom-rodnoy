@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1512px;
+  min-height: 60px;
+  background-color: #1E1E1E;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+  gap: 311px;
+}
+
+.header__linksList {
+  font-family: 'Roboto-Regular';
+  font-size: 20px;
+  line-height: 25px;
+  max-height: 100%;
+  list-style: none;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__phoneNumber {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"),
+   url("../../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  }

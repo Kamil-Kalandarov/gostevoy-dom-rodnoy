@@ -1,0 +1,20 @@
+.description {
+  width: 100%;
+  max-height: 232px;
+  background-color: #FFC800;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.description__text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  padding: 80px 140px 106px;
+  margin: 0;
+  width: 830px;
+}

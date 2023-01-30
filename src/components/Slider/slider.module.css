@@ -1,0 +1,14 @@
+.slide {
+  max-height: 1230px;
+  max-width: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.slideContentList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
